@@ -2,7 +2,7 @@
 
 require_once 'client.php';
 
-$calogero = new Index('calogero','incavolato');
+$calogero = new Client('calogero','incavolato');
 
 ?>
 
