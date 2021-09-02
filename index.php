@@ -1,6 +1,6 @@
 <?php
 
-class Utenti {
+class Index {
     public $name;
     public $surname;
     public $email;

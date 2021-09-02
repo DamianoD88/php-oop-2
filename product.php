@@ -2,7 +2,7 @@
 
 require_once 'index.php';
 
-$calogero = new Utenti('calogero','incavolato');
+$calogero = new Index('calogero','incavolato');
 
 ?>
 
