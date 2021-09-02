@@ -1,22 +1,23 @@
 <?php
 
-class Index {
-    public $name;
-    public $surname;
-    public $email;
-    public $age;
-    public $sconti;
+require_once 'client.php';
 
-    function __construct($_name, $_surname, $_email, $_age){
-        $this->name = $_name;
-        $this->surname = $_surname;
-        $this->email = $_email;
-        $this->age = $_age;
+$calogero = new Index('calogero','incavolato');
 
-    }
+?>
 
-    public function getFullName(){
-        return $this->name . '' . $this->surname;
-    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
 
-}
+<body>
+    
+    <h2><?php echo $calogero->name . '' . $calogero->surname;?></h2>
+
+</body>
+</html>
