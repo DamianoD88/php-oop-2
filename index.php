@@ -2,7 +2,7 @@
 
 require_once 'client.php';
 
-$calogero = new Client('calogero','incavolato');
+$calogero = new Client('calogero','incavolato','calogero.inc@gmail.com','37');
 
 ?>
 
