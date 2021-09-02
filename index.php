@@ -1,6 +1,9 @@
 <?php
 
+// metto il require per richiamare clienti.php
 require_once 'client.php';
+
+// invoco la classe Client per invocarla devo mettere tutti i public, se no da errore
 
 $calogero = new Client('calogero','incavolato','calogero.inc@gmail.com','37');
 
@@ -16,7 +19,7 @@ $calogero = new Client('calogero','incavolato','calogero.inc@gmail.com','37');
 </head>
 
 <body>
-    
+    <!-- richiamo la funzione -->
     <h2><?php echo $calogero->name . '' . $calogero->surname;?></h2>
 
 </body>
